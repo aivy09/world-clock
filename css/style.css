@@ -1,11 +1,11 @@
 body{
-    background-color: #f9f7fe;
+    background-color: #d5def5;
     font-family: sans-serif;
 }
 
 .container {
     max-width: 600px;
-    margin: 60px auto;
+    margin: 60px auto 30px;
     background: white;
     padding: 30px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -22,6 +22,7 @@ body{
 
 .city:last-child{
     border: none;
+    margin: 20px 0 0 0;
 }
 
 .time{
@@ -60,5 +61,5 @@ h2{
 footer{
     text-align: center;
     font-size: 18px;
-    color: rgba(0,0,0, 0.6);
+    color: rgba(0,0,0, 0.7);
 }
