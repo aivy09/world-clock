@@ -1,43 +1,50 @@
 body{
-    background-color: #d5def5;
     font-family: sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1533749047139-189de3cf06d3?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    opacity: 0.9;
+}
+
+img{
+    opacity: 0.5;
 }
 
 .container {
     max-width: 600px;
     margin: 60px auto 30px;
     background: white;
-    padding: 30px;
+    padding: 10px 30px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
 }
 
+
 .city{
     display: flex;
-    margin: 20px 0;
+    margin: 10px 0;
     justify-content: space-between;
     padding: 20px;
     border-bottom: 1px dashed rgba(0,0,0, 0.2);
 }
 
 .city:last-child{
-    border: none;
-    margin: 20px 0 0 0;
+    border-bottom:none;
 }
 
 .time{
-    font-size: 48px;
+    font-size: 40px;
     font-weight: bold;
 }
 
 .time small{
-    font-size: 24px;
+    font-size: 26px;
     vertical-align: middle;
     line-height: 36px;
 }
 
 .date{
     opacity: 0.7;
+    font-size: 16px;
 }
 
 select{
@@ -50,16 +57,23 @@ select{
 
 h1{
     text-align: center;
-    font-size: 36px;
+    font-size: 40px;
+    margin-bottom: 40px;
 }
 
 h2{
     margin: 0 0 10px;
-    font-size: 28px;
+    font-size: 30px;
 }
 
 footer{
     text-align: center;
-    font-size: 18px;
-    color: rgba(0,0,0, 0.7);
+    font-size: 16px;
+    max-width: 600px;
+        margin: 20px auto;
+        background: white;
+        padding: 30px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 10px;
+  
 }
