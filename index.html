@@ -4,6 +4,9 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="css/style.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.js"></script>
+
 		<title>World Clock - Aivy Nguyen</title>
 	</head>
 	<body>
@@ -19,16 +22,17 @@
 				<option value="sydney">Sydney</option>
 			</select>
 
-			<div class="city">
+			<div class="city" id="los-angeles">
 				<div>
 					<h2>Los Angelos</h2>
 					<div class="date">August 15th 2022</div>
 				</div>
 				<div class="time">1:48:15 <small>AM</small></div>
 			</div>
-			<div class="city">
+
+			<div class="city" id="paris">
 				<div>
-					<h2>Los Angelos</h2>
+					<h2>Paris</h2>
 					<div class="date">August 15th 2022</div>
 				</div>
 				<div class="time">1:48:15 <small>AM</small></div>
@@ -36,9 +40,10 @@
 		</div>
 
 		<footer>
-			This project was coded by <strong>Aivy Nguyen</strong> and is open-sourced on
+			This project was coded by <strong>Aivy Nguyen</strong> and is open-sourced
+			on
 			<a href="https://github.com/aivy09/world-clock" target="_blank">
-			Github</a
+				Github</a
 			>
 		</footer>
 		<script src="src/index.js"></script>
